@@ -1,0 +1,30 @@
+body {
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body .button--main {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #b63710;
+  color: whitesmoke;
+  background-color: #e66666;
+  font-weight: 800;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+body .button--main:active, body .button--main:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */

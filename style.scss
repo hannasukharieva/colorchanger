@@ -1,0 +1,23 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+
+  .button--main { 
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(182, 55, 16);
+    color: whitesmoke;
+    background-color: rgb(230, 102, 102);
+    font-weight: 800;
+    font-size: 32px;
+    cursor: pointer;
+
+    &:active, &:focus {
+      outline: none;
+    }
+  }
+}
